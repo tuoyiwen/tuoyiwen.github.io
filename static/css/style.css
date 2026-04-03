@@ -267,6 +267,45 @@ h1 {
 
 .back a:hover { text-decoration: underline; }
 
+/* Archive page */
+.archive-group {
+  margin-bottom: 2rem;
+}
+
+.archive-month {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.archive-list {
+  list-style: none;
+  padding: 0;
+}
+
+.archive-list li {
+  padding: 0.3rem 0;
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+}
+
+.archive-date {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  font-family: monospace;
+  flex-shrink: 0;
+}
+
+.archive-list a {
+  color: var(--link);
+  text-decoration: none;
+}
+
+.archive-list a:visited { color: var(--link-visited); }
+.archive-list a:hover { text-decoration: underline; }
+
 /* Responsive: stack on mobile */
 @media (max-width: 700px) {
   .page {
