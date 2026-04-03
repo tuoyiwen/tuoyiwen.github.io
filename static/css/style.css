@@ -359,13 +359,9 @@ h1 {
   color: var(--link);
 }
 
-/* Inline tags on homepage post list */
-.post-tags-inline {
-  display: block;
-  font-style: italic;
-  font-size: 0.82rem;
-  color: var(--text-muted);
-  margin-top: 0.15rem;
+/* Tags section on homepage */
+.homepage-tags {
+  margin-top: 2.5rem;
 }
 
 /* Responsive: stack on mobile */

@@ -5,10 +5,20 @@
     <article class="post-item">
       <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
       <span class="date">{{ .Date.Format "2006-01-02" }}</span>
-      {{ with .Params.tags }}
-      <span class="post-tags-inline">{{ range $i, $t := . }}{{ if $i }}, {{ end }}{{ $t }}{{ end }}</span>
-      {{ end }}
     </article>
     {{ end }}
   </div>
+
+  {{ if .Site.Taxonomies.tags }}
+  <div class="homepage-tags">
+    <h2>Tags</h2>
+    <div class="tag-cloud">
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}/" class="tag-item">
+          {{ $name }} <span class="tag-count">{{ len $taxonomy }}</span>
+        </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
 {{ end }}
