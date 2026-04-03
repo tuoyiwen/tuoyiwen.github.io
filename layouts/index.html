@@ -5,6 +5,9 @@
     <article class="post-item">
       <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
       <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+      {{ with .Params.tags }}
+      <span class="post-tags-inline">{{ range $i, $t := . }}{{ if $i }}, {{ end }}{{ $t }}{{ end }}</span>
+      {{ end }}
     </article>
     {{ end }}
   </div>

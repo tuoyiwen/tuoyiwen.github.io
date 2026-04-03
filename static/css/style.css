@@ -359,6 +359,15 @@ h1 {
   color: var(--link);
 }
 
+/* Inline tags on homepage post list */
+.post-tags-inline {
+  display: block;
+  font-style: italic;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  margin-top: 0.15rem;
+}
+
 /* Responsive: stack on mobile */
 @media (max-width: 700px) {
   .page {
