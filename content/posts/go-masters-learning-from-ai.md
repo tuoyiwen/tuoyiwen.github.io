@@ -2,6 +2,7 @@
 title: "What Go Masters Teach Us About Learning From AI — And What We're Losing"
 date: 2026-03-13
 draft: false
+tags: ["AI", "Cognitive Science", "Learning"]
 ---
 
 In 2016, Google DeepMind's AlphaGo defeated Lee Sedol — one of the greatest Go players in history — in a match that shocked the world. It was supposed to be AI's crowning moment. And it was.

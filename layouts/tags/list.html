@@ -1,0 +1,24 @@
+{{ define "main" }}
+  {{ if .Data.Singular }}
+    {{/* Single tag page — show posts with this tag */}}
+    <h2>Posts tagged "{{ .Title }}"</h2>
+    <div class="post-list">
+      {{ range .Pages }}
+      <article class="post-item">
+        <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
+        <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+      </article>
+      {{ end }}
+    </div>
+  {{ else }}
+    {{/* Tags index — show all tags */}}
+    <h2>Tags</h2>
+    <div class="tag-cloud">
+      {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+        <a href="{{ "/tags/" | relURL }}{{ $name | urlize }}/" class="tag-item">
+          {{ $name }} <span class="tag-count">{{ len $taxonomy }}</span>
+        </a>
+      {{ end }}
+    </div>
+  {{ end }}
+{{ end }}

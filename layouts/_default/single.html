@@ -2,6 +2,11 @@
   <article>
     <h2>{{ .Title }}</h2>
     <p class="date">{{ .Date.Format "January 2, 2006" }}</p>
+    {{ with .Params.tags }}
+    <div class="post-tags">
+      {{ range . }}<a href="/tags/{{ . | urlize }}/" class="post-tag">{{ . }}</a>{{ end }}
+    </div>
+    {{ end }}
     <div class="post-content">
       {{ .Content }}
     </div>

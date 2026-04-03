@@ -2,6 +2,7 @@
 title: "Why Good AI Use Makes Your PhD Harder, Not Easier"
 date: 2026-03-26
 draft: false
+tags: ["AI", "PhD Life", "Learning"]
 ---
 
 Every PhD student using AI today is solving the same problem: how to produce more, faster. The output improves — literature reviews done in an hour, arguments structured before the coffee gets cold, drafts that no longer embarrass on first read. But this frames doctoral training as a *production* problem. It isn't only that.

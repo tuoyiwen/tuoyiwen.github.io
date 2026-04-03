@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <h2>Posts tagged "{{ .Title }}"</h2>
+  <div class="post-list">
+    {{ range .Pages }}
+    <article class="post-item">
+      <a href="{{ .RelPermalink }}" class="post-title">{{ .Title }}</a>
+      <span class="date">{{ .Date.Format "2006-01-02" }}</span>
+    </article>
+    {{ end }}
+  </div>
+  <p class="back"><a href="/tags/">&larr; All tags</a></p>
+{{ end }}

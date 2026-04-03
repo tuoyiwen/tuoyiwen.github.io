@@ -2,6 +2,7 @@
 title: "A 1973 Economics Paper Predicted Exactly How AI Would Break the College Degree"
 date: 2026-03-29
 draft: false
+tags: ["AI", "Economics", "Education"]
 ---
 
 **Spence's 1973 signaling theory explains why your degree is losing value — and what's replacing it.**

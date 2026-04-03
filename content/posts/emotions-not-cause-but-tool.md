@@ -2,6 +2,7 @@
 title: "Emotions Are Not the Cause but the Tool"
 date: 2026-03-21
 draft: false
+tags: ["Psychology", "AI", "PhD Life"]
 ---
 
 The other night, I was anxious. The kind of low-grade, pervasive dread that makes you scroll your phone at midnight instead of doing anything useful. I'm a PhD student, and I couldn't come up with a research idea. The dissertation clock was ticking. My mind was blank. My partner asked what was wrong.

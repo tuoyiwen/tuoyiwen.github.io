@@ -307,6 +307,58 @@ h1 {
 .archive-list a:visited { color: var(--link-visited); }
 .archive-list a:hover { text-decoration: underline; }
 
+/* Tags page */
+.tag-cloud {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.tag-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.35rem 0.85rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  color: var(--link);
+  text-decoration: none;
+  font-size: 0.9rem;
+  transition: background 0.2s;
+}
+
+.tag-item:hover {
+  background: var(--border);
+}
+
+.tag-count {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Tags on single post */
+.post-tags {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.post-tag {
+  font-size: 0.78rem;
+  padding: 0.15rem 0.55rem;
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  color: var(--text-muted);
+  text-decoration: none;
+}
+
+.post-tag:hover {
+  color: var(--link);
+}
+
 /* Responsive: stack on mobile */
 @media (max-width: 700px) {
   .page {

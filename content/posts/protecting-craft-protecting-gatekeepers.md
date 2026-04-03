@@ -2,6 +2,7 @@
 title: "When 'Protecting the Craft' Means Protecting the Gatekeepers"
 date: 2026-03-24
 draft: false
+tags: ["AI", "Academia", "Creativity"]
 ---
 
 In Kanchipuram, India, silk weavers carry a tradition that stretches back five centuries. Their saris are heritage-certified. Globally coveted. Museum-exhibited. The craft is sacred.
