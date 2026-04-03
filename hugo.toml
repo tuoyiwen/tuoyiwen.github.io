@@ -1,0 +1,14 @@
+baseURL = "https://tuoyiwen.github.io/"
+languageCode = "en-us"
+title = "Yiwen (Eavan)"
+
+[params]
+  bio = "I'm a PhD researcher exploring the intersection of Human-AI Interaction and Employee Creativity. I'm interested in how AI tools reshape the way people think, create, and collaborate at work."
+
+[params.social]
+  twitter = "https://x.com/evelyn_tuo"
+  linkedin = "https://www.linkedin.com/feed/"
+  email = "yiwentuotuo@gmail.com"
+
+[markup.goldmark.renderer]
+  unsafe = true
