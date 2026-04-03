@@ -86,21 +86,40 @@ h1 {
   margin-bottom: 1.25rem;
 }
 
-.sidebar nav {
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.social-links a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.85rem;
+}
+
+.social-links a:hover { color: var(--link); }
+
+.site-nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
 }
 
-.sidebar nav a {
+.site-nav a {
   color: var(--link);
   text-decoration: none;
   font-size: 0.9rem;
+  font-weight: 500;
 }
 
-.sidebar nav a:hover { text-decoration: underline; }
+.site-nav a:hover { text-decoration: underline; }
 
 .theme-toggle {
   background: transparent;
