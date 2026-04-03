@@ -95,12 +95,12 @@ h1 {
 }
 
 .social-links a {
-  color: var(--text-muted);
   text-decoration: none;
-  font-size: 0.85rem;
+  font-size: 1.3rem;
+  transition: transform 0.2s;
 }
 
-.social-links a:hover { color: var(--link); }
+.social-links a:hover { transform: scale(1.2); }
 
 .site-nav {
   display: flex;
