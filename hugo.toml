@@ -3,7 +3,7 @@ languageCode = "en-us"
 title = "Yiwen (Eavan)"
 
 [params]
-  bio = "Hi folks! I'm a PhD candidate in Organizational Behavior / Industrial Psychology. I'm interested in human-AI interaction, creativity, and innovation. I believe in human agency — technology is technology; the key is how we navigate it. Here I share my thoughts on this direction, relevant research progress in management, and tools that help enhance research efficiency."
+  bio = "Hi folks! I'm a PhD candidate in Organizational Behavior. I'm interested in human-AI interaction, creativity, and innovation. I believe in human agency: technology is technology; the key is how we navigate it. Here I share my thoughts on this direction, relevant research progress."
 
 [params.social]
   twitter = "https://x.com/evelyn_tuo"
