@@ -1,5 +1,5 @@
 ---
-title: How can we develop agency when working with AI? Four takeaways
+title: How Can We Develop Agency When Working with AI? Four Takeaways
 date: 2026-04-07
 draft: false
 tags:
